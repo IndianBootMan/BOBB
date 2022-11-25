@@ -1,0 +1,806 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "BookofBalefulBobbness",
+				"abbreviation": "BOBB",
+				"full": "Book of Baleful Bobbness",
+				"authors": [
+					"Indian Boot Man"
+				],
+				"version": "1.0",
+				"url": "none",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753,
+		"dateLastModified": 11126587,
+		"_dateLastModifiedHash": "3997f31cc8"
+	},
+	"subclass": [
+		{
+			"name": "Way of the Zen Archer",
+			"subclassFeatures": [
+				"Way of the Zen Archer|Monk||Zen Archer|BookofBalefulBobbness|3",
+				"Ki Arrows|Monk||Zen Archer|BookofBalefulBobbness|6",
+				"Stunning Shot|Monk||Zen Archer|BookofBalefulBobbness|6",
+				"Reflex Shot|Monk||Zen Archer|BookofBalefulBobbness|11",
+				"Ki Barrage|Monk||Zen Archer|BookofBalefulBobbness|17"
+			],
+			"source": "BookofBalefulBobbness",
+			"shortName": "Zen Archer",
+			"className": "Monk",
+			"classSource": "PHB"
+		},
+        {
+			"name": "Way of the Kineticist",
+			"subclassFeatures": [
+				"Way of the Kineticist|Monk||Kineticist|BookofBalefulBobbness|3",
+				"Fluid Motion|Monk||Kineticist|BookofBalefulBobbness|6",
+				"Kinetic Rush|Monk||Kineticist|BookofBalefulBobbness|11",
+				"Force of Momentum|Monk||Kineticist|BookofBalefulBobbness|17"
+			],
+			"source": "BookofBalefulBobbness",
+			"shortName": "Kineticist",
+			"className": "Monk",
+			"classSource": "PHB"
+		},
+        {
+			"name": "Smooth Apparator",
+			"subclassFeatures": [
+				"Smooth Apparator|Rogue||Smooth Apparator|BookofBalefulBobbness|3",
+				"Vanishing Act|Rogue||Smooth Apparator|BookofBalefulBobbness|9",
+				"Dimension Strike|Rogue||Smooth Apparator|BookofBalefulBobbness|13",
+				"Quickshift|Rogue||Smooth Apparator|BookofBalefulBobbness|17"
+			],
+			"source": "BookofBalefulBobbness",
+			"shortName": "Smooth Apparator",
+			"className": "Rogue",
+			"classSource": "PHB"
+		},
+        {
+			"name": "Martial Savant",
+			"subclassFeatures": [
+				"Martial Savant|Fighter||Martial Savant|BookofBalefulBobbness|3",
+				"Additional Focused Fighting Style|Fighter||Martial Savant|BookofBalefulBobbness|7",
+                "Battlefield Adaptation|Fighter||Martial Savant|BookofBalefulBobbness|7",
+				"Unstoppable|Fighter||Martial Savant|BookofBalefulBobbness|10",
+                "Improved Combat Focus Die (1d6)|Fighter||Martial Savant|BookofBalefulBobbness|10",
+                "Additional Focused Fighting Style|Fighter||Martial Savant|BookofBalefulBobbness|15",
+                "Improved Combat Focus Die (1d8)|Fighter||Martial Savant|BookofBalefulBobbness|15",
+                "Fighting Style Mastery|Fighter||Martial Savant|BookofBalefulBobbness|18"
+			],
+			"source": "BookofBalefulBobbness",
+			"shortName": "Martial Savant",
+			"className": "Fighter",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Way of the Zen Archer",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Zen Archer",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"entries": [
+				"To a Monk following the Way of the Zen Archer, the bow is an extension of one's own force of will. Zen Archers fight with their wits and awareness of their surroundings, and can channel their ki through to their bows to unleash awesome flurries of arrows, form arrows from pure ki, and even interfere with enemy ki from afar.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sense of Zen|Monk||Zen Archer|BookofBalefulBobbness|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Zen Archery|Monk||Zen Archer|BookofBalefulBobbness|3"
+				}
+			]
+		},
+		{
+			"name": "Sense of Zen",
+			"entries": [
+				"{@i 3rd level Way of the Zen Archer feature}",
+				"You gain proficiency in the Insight and Perception skills."
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Zen Archer",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Zen Archery",
+			"entries": [
+				"{@i 3rd level Way of the Zen Archer feature}",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with longbows and shortbows, and they are monk weapons for you.",
+						"You can use Wisdom instead of Dexterity for the attack and damage rolls of longbows and shortbows.",
+						"Immediately after you take the attack action on your turn, you can spend 1 ki point to make two ranged weapon attacks with a longbow or shortbow as a bonus action."
+					]
+				}
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Zen Archer",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Ki Arrows",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Zen Archer",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th level Way of the Zen Archer feature}",
+				"You no longer require arrows when firing longbows or shortbows. When you grasp the bowstring, you create an arrow made of pure ki. Ki arrows you create deal force damage, and vanish immediately after they hit or miss a target."
+			]
+		},
+		{
+			"name": "Stunning Shot",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Zen Archer",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 3rd level Way of the Zen Archer feature}",
+				"When you hit a creature with a ranged weapon attack within the normal range of a longbow or shortbow you are wielding, you can spend 1 ki point to attempt a Stunning Shot. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn."
+			]
+		},
+		{
+			"name": "Reflex Shot",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Zen Archer",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th level Way of the Zen Archer feature}",
+				"On turns other than your own, you actively threaten a 30 foot radius centered on you while wielding a longbow or shortbow. When a creature you can see moves at least 5 feet while in this area, you can use your reaction to make a ranged opportunity attack against that creature."
+			]
+		},
+		{
+			"name": "Ki Barrage",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Zen Archer",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th level Way of the Zen Archer feature}",
+				"As an attack action while wielding a longbow or shortbow, you can forgo your normal attacks and spend 3 ki points to unleash a volley of concussive ki. Each creature you choose in a 10 ft radius centered on a point within the bow's normal range must make a Constitution saving throw. On a failed save, a target takes 4d10 force damage and is stunned until the end of your next turn. On a successful save, a target takes half as much damage and isn't stunned."
+			]
+		},
+		        {
+			"name": "Way of the Kineticist",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kineticist",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"entries": [
+				"Monks who follow the Way of the Kineticist are wielders of the very force of momentum, training themselves to feel the flow of energy from the world around them. They learn to telekinetically reach out through this energy using the vibrations of their surroundings, pulling to and pulling from nearby objects and creatures.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Kinetic Reach|Monk||Kineticist|BookofBalefulBobbness|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reach Adept|Monk||Kineticist|BookofBalefulBobbness|3"
+				}
+			]
+		},
+		{
+			"name": "Kinetic Reach",
+			"entries": [
+				"{@i 3rd level Way of the Kineticist feature}",
+				"Your ability to reach out to your surroundings through the flow of kinetic energy is measured by your Kinetic Reach. Your Kinetic Reach increases by an amount based on your level in this class, as shown on the Kinetic Reach table.",
+				{
+					"type": "table",
+					"caption": "Kinetic Reach",
+					"colLabels": [
+						"Monk Level",
+						"Kinetic Reach"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-3 text-center"
+					],
+					"rows": [
+						[
+							"3rd",
+							"10"
+						],
+						[
+							"6th",
+							"20"
+						],
+						[
+							"11th",
+							"30"
+						],
+						[
+							"17th",
+							"40"
+						]
+					]
+				}
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kineticist",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Reach Adept",
+			"entries": [
+				"{@i 3rd level Way of the Kineticist feature}",
+				"Your command over your Kinetic Reach grants you the following abilities.",
+				"{@b Reach Movement.} As a bonus action, you can fly up to your Kinetic Reach in feet. This movement does not provoke opportunity attacks, and is not part of your movement speed. In additition, you can spend 1 ki point to use Step of the Wind with the same bonus action.",
+				"You must be within your Kinetic Reach in feet from a solid surface, or an object or creature that is two or more sizes larger than you to use Reach Movement. You can't use Reach Movement if you are incapacitated or if your speed drops to 0.",
+				"{@b Kinetic Concussion.} Once per turn, when you move at least 10 feet in a straight line using Reach Movement immediately before hitting a target with a melee weapon attack, you can deal extra force damage equal to one roll of your Martial Arts die.",
+				"{@b Momentum Break.} If you are subjected to an effect which would move you at least 5 feet, you can use your reaction to reduce the movement by a number of feet equal to your Kinetic Reach."
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kineticist",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Fluid Motion",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kineticist",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th level Way of the Kineticist feature}",
+				"Your ability to control your Kinetic Reach is becoming second nature. You gain the following benefits.",
+				"{@b Last Second Push.} When you use the Slow Fall ability to reduce falling damage, you reduce the damage by an additional amount equal to your Kinetic Reach.",
+				"{@b Push Off.} When you jump as part of your movement, the distance you can cover increases by a number of feet equal to your Kinetic Reach.",
+				"{@b Kinetic Kip Up.} When you're prone, you can stand up by spending 5 feet of movement, rather than half your speed."
+			]
+		},
+		{
+			"name": "Kinetic Rush",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kineticist",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th level Way of the Kineticist feature}",
+				"When you use the Reach Movement ability, you can spend 1 ki point to use Flurry of Blows with the same bonus action, even if you didn't use the attack action immediately before."
+			]
+		},
+		{
+			"name": "Force of Momentum",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kineticist",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th level Way of the Kineticist feature}",
+				"You can gain the extra force damage from your Kinetic Concussion ability any number of times per turn, provided you move at least 10 feet in a straight line using Reach Movement immediately before each attack."
+			]
+		},
+        {
+			"name": "Smooth Apparator",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Smooth Apparator",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"entries": [
+				"Some rogues master the art of deception or picking pockets. Others have learned to make an ally of the shadows. You walk a different path. Or perhaps you walk no path at all, for you have discovered the ability to navigate the space between spaces. You are a Smooth Apparator, and you use the power of short range teleportation to give you the edge you need, in or out of combat.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dimension Shift|Rogue||Smooth Apparator|BookofBalefulBobbness|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Practiced Teleportations|Rogue||Smooth Apparator|BookofBalefulBobbness|3"
+				}
+			]
+		},
+		{
+			"name": "Dimension Shift",
+			"entries": [
+				"{@i 3rd level Smooth Apparator feature}",
+				"While you are not incapacitated or restrained, you can use the bonus action granted by your Cunning Action to teleport up to 30 feet to an unoccupied space that you can see instead of using your normal movement.",
+				"You also gain an additional way to use your Sneak Attack; you don't need advantage on your attack roll to use Sneak Attack against a creature if you target it with a melee attack immediately after ending a teleportation within 5 feet of it, and you don't have disadvantage on the attack roll."
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Smooth Apparator",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Practiced Teleportations",
+			"entries": [
+				"{@i 3rd level Smooth Apparator feature}",
+				"You can teleport an object you are holding elsewhere on your person, and teleport an object on your person to your hand."
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Smooth Apparator",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Vanishing Act",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Smooth Apparator",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9th level Smooth Apparator feature}",
+				"You have advantage on a Dexterity (Stealth) check if you teleport at least 15 feet on the same turn."
+			]
+		},
+		{
+			
+			"name": "Dimension Strike",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Smooth Apparator",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"{@i 13th level Smooth Apparator feature}",
+				"You can make a melee attack as part of the bonus action you take to activate Dimension Shift. You choose whether the attack takes place immediately before or immediately after the teleportation."
+			]
+		},
+		{
+			"name": "Quickshift",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Smooth Apparator",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th level Smooth Apparator feature}",
+				"On turns other than your own, you actively threaten a 30 foot radius centered on you. When a hostile creature you can see moves at least 5 feet while within that area, you can use your reaction to teleport up to 30 feet to an unoccupied space you can see within 5 feet of the creature and make an opportunity attack against it."
+			]
+		},
+        {
+			"name": "Martial Savant",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"entries": [
+				"It takes a warrior of great focus to be considered a Martial Savant, tirelessly perfecting styles and forms beyond that of other combatants. Martial Savants pride themselves on being prepared for whatever the battle will throw at them, and they are able to shift their focus as needed.  Generally eschewing the shortcuts of the arcane and the distractions of divine worship, Martial Savants have dedicated themselves to controlling the ebb and flow of battle through superior technique and mastery of the art of combat.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ready For Anything|Fighter||Martial Savant|BookofBalefulBobbness|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Focus|Fighter||Martial Savant|BookofBalefulBobbness|3"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Focused Fighting Styles|Fighter||Martial Savant|BookofBalefulBobbness|3"
+				}
+			]
+		},
+		{
+			"name": "Ready For Anything",
+			"entries": [
+				"{@i 3rd level Martial Savant feature}",
+				"You gain proficiency with improvised weapons."
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Combat Focus",
+			"entries": [
+				"{@i 3rd level Martial Savant feature}",
+				"The Fighting Style granted by the Fighter Class is improved upon and expanded.",
+                "{@b Focused Fighting Styles.} The Fighting Style granted by the Fighter Class is replaced by your choice of two Focused Fighting Styles. You gain the normal benefits from the chosen Fighting Styles, as well as the benefits listed under 'Focused Fighting Styles' below. You can choose which Focused Fighting Styles you have active when you finish a short or long rest.",
+                "The number of Focused Fighting Styles you can have active increases to three at 7th level, and four at 15th level.",
+                "Fighting Styles you gain from other sources are not affected by this ability.",
+                "{@b Combat Focus Die.} Some of the abilities granted by your Focused Fighting Styles allow you to add your Combat Focus die, which is a d4, to a roll. You can only add one Combat Focus die to a roll."
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+        {
+			"name": "Focused Fighting Styles",
+			"entries": [
+				"{@b Archery}.",
+                {
+					"type": "list",
+					"items": [
+                        "As a bonus action, you can add your Combat Focus die to the damage of attacks you make using a ranged weapon before the start of your next turn.",
+                        "When you ready an action to attack with a ranged weapon, you gain advantage on the first attack you make with a ranged weapon before the start of your next turn."
+                    ]
+                },
+                "{@b Armored}.",
+                {
+					"type": "list",
+					"items": [
+                        "You can doff or don light and medium armor as an action. You can do so with heavy armor in 1 minute. In addition, you can don a shield when you draw or attack with a weapon.",
+                        "As a bonus action while wielding a shield, you can grant yourself half cover until the start of your next turn."
+                    ]
+                },
+                "{@b Blind Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "Once per turn, you gain advantage on an attack against a target which would be undetectable without the Blind Fighting Style. If the attack hits, you can add your Combat Focus die to the damage.",
+                        "As a bonus action, you can add 20 feet to the range of your Blind Fighting ability until the start of your next turn."
+                    ]
+                },
+                "{@b Dueling}.",
+                {
+					"type": "list",
+					"items": [
+                        "Before you make a melee attack with a weapon you are wielding in one hand, you can choose to take a penalty to the attack roll equal to your proficiency bonus. If the attack hits, you add 2 + your proficiency bonus to the attack's damage. You can not use this ability while wielding a weapon in your other hand.",
+                        "If you take the Attack action on your turn with a melee weapon you are wielding in one hand while your are wielding a shield, you can use a bonus action to attack a creature within 5 feet of you with your shield. This attack uses the same ability modifier as the primary attack. The shield's damage die for this attack is a d4, and the attack deals bludgeoning damage.",
+                        "When you take the dodge action while wielding a weapon in one hand, and a creature within 5 feet of you misses you with an attack, you can spend your reaction to make a melee attack with advantage against that creature. If the attack hits, the target has disadvantage on the first attack it makes against you before the end of its next turn. You can not use this ability while wielding a weapon or shield in your other hand."
+                    ]
+                },
+                "{@b Great Weapon Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "When you make an opportunity attack with a melee weapon that you are wielding with two hands, the target's speed is reduced by 10 feet until the end of their next turn. If this would reduce the target's speed to 0, or if their speed is already 0, you can add your Combat Focus die to the damage.",
+                        "You can roll your Combat Focus die when determining the extra damage for a critical hit with a weapon that you are wielding with two hands."
+                    ]
+                },
+                "{@b Improvised Weapon Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "While you are wielding at least one improvised weapon, opportunity attacks against you have disadvantage.",
+                        "Once per turn when you pick up an improvised weapon that you have not used in this combat, you gain advantage on the first attack you make with that weapon before the end of the turn."
+                    ]
+                },
+                "{@b Interception}.",
+                {
+					"type": "list",
+					"items": [
+                        "You can add your Combat Focus die to the damage reduced by the Interception ability.",
+                        "As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can use your Interception ability when a creature you see hits a target, other than you, within 15 feet of you. As part of using this ability, you move up to 10 feet in a straight line toward the target of the triggering attack."
+                    ]
+                },
+                "{@b Mobility}.",
+                {
+					"type": "list",
+					"items": [
+                        "You can take the dash action as a bonus action on your turn.",
+                        "Once on each of your turns, if you move at least 10 feet in a straight line immediately before making a melee weapon attack, you can add your Combat Focus die to the damage roll."
+                    ]
+                },
+                "{@b Protection}.",
+                {
+					"type": "list",
+					"items": [
+                        "If the triggering attack still hits, the target of your Protection gains resistance against the damage of the attack.",
+                        "Immediately after the triggering attack resolves, the target of your protection can move up to 15 feet without provoking opportunity attacks. The target must remain within 5 feet of you during this movement."
+                    ]
+                },
+                "{@b Thrown Weapon Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "When you use the attack action and attack with a thrown weapon, you can use a bonus action to attack with a thrown weapon.",
+                        "As a reaction when when a weapon or object is thrown at you or within 5 feet of you, you can make a dexterity saving throw, DC = 8 + attacker's proficiency bonus + attacker's Strength or Dexterity modifier (attacker's choice.) If you succeed, you catch the weapon or object and can immediately throw it at a target of your choice."
+                    ]
+                },
+                "{@b Two-Weapon Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "Once per turn when you hit a single target with both of your weapons, you can deal additional damage to that target equal to your Combat Focus die. This extra damage must be of a type that one of the weapons you are wielding can deal.",
+                        "When making an opportunity attack, you can attack with both of your weapons."
+                    ]
+                },
+                "{@b Unarmed Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "In addition to your movement speed, you can move 5 feet immediately after each unarmed attack you make.",
+                        "You can attempt to escape a grapple as a bonus action."
+                    ]
+                },
+                "{@b Unarmored}.",
+                {
+					"type": "list",
+					"items": [
+                        "While you are wearing no armor and not wielding a shield, you gain proficiency in Dexterity saving throws. If you already have the proficiency from another source, you add double your proficiency bonus to Dexterity saving throws.",
+                        "While you are wearing no armor and not wielding a shield, you can use the dodge action as a bonus action."
+                    ]
+                }
+			],
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Additional Focused Fighting Style",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th level Martial Savant feature}",
+				"You can have three Focused Fighting Styles active at the same time."
+			]
+		},
+        {
+			"name": "Battlefield Adaptation",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th level Martial Savant feature}",
+				"When you use your Second Wind ability, you regain an additional number of hit points equal to your Combat Focus die.",
+                "In addition, you can change which Focused Fighting Styles you have active when you use your Second Wind ability. Once you change your Focused Fighting Styles this way, you can not do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Unstoppable",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th level Martial Savant feature}",
+				"When you use your Indomitable ability to reroll a saving throw, you can add your Combat Focus die to the second roll.",
+                "In addition, you can change which Focused Fighting Styles you have active when you use your Indomitable ability."
+			]
+		},
+        {
+			"name": "Improved Combat Focus Die (1d6)",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th level Martial Savant feature}",
+				"Your combat Focus die turns in to a d6."
+			]
+		},
+		{
+			"name": "Additional Focused Fighting Style",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th level Martial Savant feature}",
+				"You can have four Focused Fighting Styles active at the same time."
+			]
+		},
+        {
+			"name": "Improved Combat Focus Die (1d8)",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th level Martial Savant feature}",
+				"Your Combat Focus die turns in to a d8."
+			]
+		},
+        {
+			"name": "Fighting Style Mastery",
+			"source": "BookofBalefulBobbness",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Savant",
+			"subclassSource": "BookofBalefulBobbness",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18th level Martial Savant feature}",
+				"You gain mastery of the Fighting Styles granted by the Fighter class. While you are focused in a Fighting Style, its benefits are improved as shown below.",
+                "{@b Archery}.",
+                {
+					"type": "list",
+					"items": [
+                        "The bonus to attack rolls granted the Archery Fighting Style increases to +3."
+                    ]
+                },
+                "{@b Armored}.",
+                {
+					"type": "list",
+					"items": [
+                        "While you are wearing armor, the bonus to AC granted by the Armored Style increases to +2."
+                    ]
+                },
+                "{@b Blind Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "The range of the blindsight granted by the Blind Fighting Style increases to 20 feet."
+                    ]
+                },
+                "{@b Dueling}.",
+                {
+					"type": "list",
+					"items": [
+                        "The bonus to damage rolls granted by the Dueling Fighting Style increases to +4."
+                    ]
+                },
+                "{@b Great Weapon Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "When you hit with a weapon that you are wielding with two hands, you can treat any damage die roll of 3 or lower as a 4."
+                    ]
+                },
+                "{@b Improvised Weapon Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "The improvised weapon damage granted by the Improvised Weapon Fighting Style increases to 1d10 + your strength modifier. If you are wielding an improvised weapon in two hands when you make the attack roll, the d10 becomes a d12."
+                    ]
+                },
+                "{@b Interception}.",
+                {
+					"type": "list",
+					"items": [
+                        "The damage you reduce when your Interception ability is triggered increases by 1d10."
+                    ]
+                },
+                "{@b Mobility}.",
+                {
+					"type": "list",
+					"items": [
+                        "The bonus to your speed granted by the Mobility Fighting Style increases by 10 feet."
+                    ]
+                },
+                "{@b Protection}.",
+                {
+					"type": "list",
+					"items": [
+                        "The target of your Protection ability gains temporary hit points equal to your Combat Focus die + your proficiency bonus when the ability is triggered. In addition, the target gains half cover until the start of your next turn as long as they remain within 5 feet of you."
+                    ]
+                },
+                "{@b Thrown Weapon Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "The bonus to damage rolls granted by the Thrown Weapon Fighting Style increases to +4."
+                    ]
+                },
+                "{@b Two-Weapon Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "When you use a bonus action to attack with a weapon in your other hand, you can make two attacks instead of one."
+                    ]
+                },
+                "{@b Unarmed Fighting}.",
+                {
+					"type": "list",
+					"items": [
+                        "The unarmed strike damage granted by the Unarmed Fighting Style increases to 1d10 + your strength modifier. If you aren't wielding any weapons or a shield when you make the attack roll, the d10 becomes a d12.",
+                        "At the start of each of your turns, you can deal 1d8 bludgeoning damage to one creature grappled by you, instead of 1d4."
+                    ]
+                },
+                "{@b Unarmored}.",
+                {
+					"type": "list",
+					"items": [
+                        "While you are not wearing armor, the bonus to AC granted by the Unarmored Style increases by +2."
+                    ]
+                }
+			]
+		}	
+	]
+}
